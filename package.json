@@ -1,0 +1,14 @@
+{
+  "name": "foroop3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "checkout": "node main.js",
+    "start": "node main.js",
+    "dev": "nodemon npm run start"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
