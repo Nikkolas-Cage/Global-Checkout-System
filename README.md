@@ -1,6 +1,12 @@
 # Global Checkout System
 
-This project demonstrates the Factory Method pattern in a Node.js checkout system. You can test credit card, PayPal, and Bitcoin payment flows using a simple command-line menu.
+
+*Scenario: You are building a checkout module for an e-commerce site. Currently, the site only accepts
+Credit Cards. However, the business wants to expand to PayPal and Bitcoin next month. If you hardcode
+new CreditCard() everywhere, you'll have to rewrite the entire checkout system every time a new payment
+type is added.
+This project demonstrates the Factory Method pattern in a Node.js checkout system. You can test credit card, PayPal, and Bitcoin payment flows using a simple command-line menu.*
+
 
 ## How to Run
 
